@@ -1,0 +1,7 @@
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: xyz.yukinoxu.seckill.entity
+  configuration:
+    use-generated-keys: true
+    use-column-label: true
+    map-underscore-to-camel-case: true
